@@ -1,3 +1,4 @@
+const prompt = require("prompt-sync")({sigint: true})
 function gradeGenerator(){
 const gradeGenerator = prompt ("marks")
 if (gradeGenerator >= 79 && gradeGenerator <= 100){
@@ -14,5 +15,5 @@ if (gradeGenerator >= 79 && gradeGenerator <= 100){
   console.log("Invalid!")
 }
 }
-// gradeGenerator()
+gradeGenerator()
  

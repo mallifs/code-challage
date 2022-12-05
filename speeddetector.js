@@ -1,3 +1,4 @@
+const prompt = require("prompt-sync")({sigint: true})
 function speed( ){
 const speed = prompt ("carspeed")
 if (speed <= 70){
